@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="215dp"
+        android:src="@drawable/gif1"
+         />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="215dp"
+        android:src="@drawable/gif2"
+        />
+    <TextView
+        android:id="@+id/UsernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="61dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_green_light"
+        android:text="Username"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/DepartmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/UsernameText"
+        android:layout_marginTop="90dp"
+        android:textSize="15sp"
+        android:textColor="#ffd700"
+        android:text="Department"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/EmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="47dp"
+        android:textSize="15sp"
+        android:textColor="#ffd700"
+        android:text="@string/email" />
+</RelativeLayout>
